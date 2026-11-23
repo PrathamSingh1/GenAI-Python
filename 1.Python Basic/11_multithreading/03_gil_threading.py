@@ -19,4 +19,4 @@ thread1.join()
 thread2.join()
 end = time.time()
 
-print(f"Total time taken : {end - start: 2f} second")
+print(f"Total time taken : {end - start: .2f} second")
